@@ -44,11 +44,34 @@ class CarManager:
 
 
 
-while true:
-    print("----WELCOME----")
-    print("\n1. Add a car\")
-          print('n2. View all cars")
-                print("\n3. View total number of cars")
-                print("\n4. See a car's details")
-                print("\n5. Service a car\n6. Update mileage\n7. Quit")
+    def add_service():
+        pass
 
+
+
+    def app_menue():
+        print("----WELCOME----")
+        print("1. Add a car")
+        print("2. View all cars")
+        print("3. View total number of cars")
+        print("4. See a car's details")
+        print("5. Service a car")
+        print("6. Update mileage")
+        print("7. Quit")
+        action = int(input("whaT would you like to do? "))
+        return action
+        
+    def add_car():
+        make = input("what is the make? ")
+        model =input("what is the model? ")
+        years = int(input(" what is the year"))
+        
+
+    def add_service():
+        pass
+        
+
+    def app_main():
+        while True:
+            app_menue()
+            if (app_menue() == 1):
